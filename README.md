@@ -4,6 +4,9 @@ This repository provides a reference implementation of *MONET* as described in t
 > Yungi Kim, Taeri Kim, Won-Yong Shin and Sang-Wook Kim<br>
 > 17th ACM Int'l Conf. on Web Search and Data Mining (ACM WSDM 2024)<br>
 
+### Overview of MONET
+![monet](https://github.com/Kimyungi/MONET/assets/28508383/a386478c-d3d6-4c13-abef-fca83e95ae71)
+
 ### Authors
 - Yungi Kim (gozj3319@hanyang.ac.kr)
 - Taeri Kim (taerik@hanyang.ac.kr)
