@@ -1,0 +1,6 @@
+gensim==3.8.3
+torch_geometric==2.0.3
+sentence_transformers==2.2.0
+pandas
+numpy
+tqdm
