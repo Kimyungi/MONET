@@ -50,7 +50,7 @@ python main.py --target_aware --agg=concat --n_layers=2 --alpha=1.0 --beta=0.3 -
 ------------------------------------
 - For MONET_sum, MONET_weighted_sum, and MONET_fc_layer in RQ4,
 ```
-python main.py --agg=sum--n_layers=2 --alpha=1.0 --beta=0.3 --dataset=WomenClothing --model_name=MONET_sum
+python main.py --agg=sum --n_layers=2 --alpha=1.0 --beta=0.3 --dataset=WomenClothing --model_name=MONET_sum
 python main.py --agg=weighted_sum --n_layers=2 --alpha=1.0 --beta=0.3 --dataset=WomenClothing --model_name=MONET_weighted_sum
 python main.py --agg=fc --n_layers=2 --alpha=1.0 --beta=0.3 --dataset=WomenClothing --model_name=MONET_fc_layer
 ```
