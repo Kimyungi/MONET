@@ -5,7 +5,7 @@ This repository provides a reference implementation of *MONET* as described in t
 > 17th ACM Int'l Conf. on Web Search and Data Mining (ACM WSDM 2024)<br>
 
 ### Overview of MONET
-![monet](https://github.com/Kimyungi/MONET/assets/28508383/a386478c-d3d6-4c13-abef-fca83e95ae71)
+![monet](https://github.com/Kimyungi/MONET/files/13654958/monet.pdf)
 
 ### Authors
 - Yungi Kim (gozj3319@hanyang.ac.kr)
@@ -38,7 +38,7 @@ The code has been tested running under Python 3.6.13. The required packages are 
 Run ```python build_data.py --name={Dataset}```
 
 ### Usage
-#### For simplicity, we provide usage for the WomenClothing dataset.
+#### For simplicity, we provide usage for the Women Clothing dataset.
 ------------------------------------
 - For MONET in RQ1,
 ```
@@ -53,14 +53,7 @@ python main.py --agg=concat --n_layers=0 --alpha=1.0 --beta=0.3 --dataset=WomenC
 python main.py --target_aware --agg=concat --n_layers=2 --alpha=1.0 --beta=0.3 --dataset=WomenClothing --model_name=MONET_wo_TA
 ```
 ------------------------------------
-- For MONET_sum, MONET_weighted_sum, and MONET_fc_layer in RQ4,
-```
-python main.py --agg=sum --n_layers=2 --alpha=1.0 --beta=0.3 --dataset=WomenClothing --model_name=MONET_sum
-python main.py --agg=weighted_sum --n_layers=2 --alpha=1.0 --beta=0.3 --dataset=WomenClothing --model_name=MONET_weighted_sum
-python main.py --agg=fc --n_layers=2 --alpha=1.0 --beta=0.3 --dataset=WomenClothing --model_name=MONET_fc_layer
-```
-------------------------------------
-- For RQ5 (hyperparameters $\alpha$, $\beta$ sensitivity),
+- For RQ4 (hyperparameters $\alpha$, $\beta$ sensitivity),
 ```
 python main.py --agg=concat --n_layers=2 --alpha={value} --beta=0.3 --dataset=WomenClothing --model_name=MONET_2_{alpha}_3
 python main.py --agg=concat --n_layers=2 --alpha=1.0 --beta={value} --dataset=WomenClothing --model_name=MONET_2_10_{beta}
