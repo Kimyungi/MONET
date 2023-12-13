@@ -5,7 +5,8 @@ This repository provides a reference implementation of *MONET* as described in t
 > 17th ACM Int'l Conf. on Web Search and Data Mining (ACM WSDM 2024)<br>
 
 ### Overview of MONET
-![monet](https://github.com/Kimyungi/MONET/files/13654958/monet.pdf)
+![monet](https://github.com/Kimyungi/MONET/assets/28508383/6723ccd1-8a8e-4710-ba7b-6a7bee928301)
+
 
 ### Authors
 - Yungi Kim (gozj3319@hanyang.ac.kr)
